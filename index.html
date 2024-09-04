@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrescazoFlix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#peliculas" class="nav-link">Películas</a></li>
+                <li><a href="#series" class="nav-link">Series</a></li>
+                <li><a href="#novedades" class="nav-link">Lo Nuevo</a></li>
+            </ul>
+        </nav>
+        <input type="text" id="searchBar" placeholder="Buscar...">
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido a FrescazoFlix</h1>
+            <p>Explora las mejores películas y series.</p>
+        </section>
+        
+        <section id="peliculas">
+            <h2>Películas</h2>
+            <div id="movieList">
+                <div class="item" data-id="FIVE_NIGHTS_AT_FREDDYS">
+                    <img src="IMAGENES/FIVE NIGHTS AT FREDDY'S.png" alt="Five Nights At Freddy's">
+                    <h3>Five Nights At Freddy's</h3>
+                </div>
+                <div class="item" data-id="WINNIE_THE_POOH_2">
+                    <img src="IMAGENES/WINNIE THE POOH 2.png" alt="Winnie the Pooh 2">
+                    <h3>Winnie the Pooh 2</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="series">
+            <h2>Series</h2>
+            <!-- Agrega contenido de series aquí -->
+        </section>
+        
+        <section id="novedades">
+            <h2>Lo Nuevo</h2>
+            <!-- Agrega novedades aquí -->
+        </section>
+        
+        <section id="movieDetails" class="hidden">
+            <div class="movie-info">
+                <h2 id="movieTitle">Título de la Película</h2>
+                <p id="movieDescription">Descripción de la película.</p>
+                <button id="watchNowButton">Ver Video</button>
+            </div>
+        </section>
+
+        <section id="videoSection" class="hidden">
+            <iframe id="videoPlayer" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

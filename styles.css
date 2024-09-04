@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a.nav-link:hover {
+    background-color: #6a0dad; /* Color morado al pasar el mouse */
+}
+
+#searchBar {
+    margin-top: 10px;
+    padding: 5px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+
+main {
+    padding: 20px;
+}
+
+#movieList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.item {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 150px; /* Hacer que las imágenes sean más pequeñas */
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item:hover {
+    transform: scale(1.05); /* Escalar imagen al pasar el mouse */
+}
+
+.movie-info {
+    text-align: center;
+    margin: 20px;
+}
+
+#watchNowButton {
+    background-color: #6a0dad; /* Color morado */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#watchNowButton:hover {
+    background-color: #4b0082; /* Morado más oscuro al pasar el mouse */
+}
+
+.hidden {
+    display: none;
+}
+
+#videoSection iframe {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
